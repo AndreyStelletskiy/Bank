@@ -22,7 +22,7 @@ public class Main {
                     System.out.println("На вашем балансе стало "+ s1 + "; Добавлено "+p1 + " Рублей");
                 }
                 else {
-                    double mi = 400 + Math.random()*1080;
+                    double mi = 400 + Math.random()*1180;
                     if (summ - mi <0){
                         String m1 = String.format("%.2f",mi);
                         System.out.println("Недостоточно средств для снятия "+ m1 + " Рублей");
